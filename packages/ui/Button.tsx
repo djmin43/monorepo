@@ -1,4 +1,9 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+
+interface ButtonProps {
+  buttonName: string;
+}
+
+export const Button = ({ buttonName }: ButtonProps) => {
+  return <button>{buttonName}</button>;
 };
