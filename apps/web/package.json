@@ -14,7 +14,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-query": "^3.39.0",
-    "ui": "*"
+    "ui": "*",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
